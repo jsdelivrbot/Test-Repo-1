@@ -1,0 +1,18 @@
+{
+  "name": "devicestore",
+  "version": "1.0.0",
+  "description": "Simple devicestore app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "global": "^4.3.2",
+    "mongoose": "*",
+    "nodemon": "^1.17.5"
+  },
+  "author": "Brad Traversy",
+  "license": "ISC"
+}

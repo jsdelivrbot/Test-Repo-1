@@ -1,0 +1,60 @@
+<a href="#/devices">Go Back</a>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Edit Device</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-12">
+        <form ng-submit="updateDevice()" ng-init="getDevice()">
+          <div class="form-group">
+            <label>Product Name</label>
+            <input type="text" class="form-control" ng-model="device.product_name" placeholder="product_name">
+          </div>
+          <div class="form-group">
+            <label>Description</label>
+            <input type="text" class="form-control" ng-model="device.description" placeholder="description">
+          </div>
+          <div class="form-group">
+            <label>Model</label>
+            <input type="text" class="form-control" ng-model="device.model" placeholder="model">
+            <!-- <select ng-model="device.genre" class="form-control">
+            <option value="Suspense">Suspense</option>
+            <option value="Drama">Drama</option>
+            <option value="Romance">Romance</option>
+            <option value="NonFiction">NonFiction</option>
+            <option value="Other">Other</option>
+          </select> -->
+          </div>
+          <div class="form-group">
+            <label>DSN</label>
+            <input type="text" class="form-control" ng-model="device.dsn" placeholder="dsn">
+          </div>
+          <div class="form-group">
+            <label>OEM Model</label>
+            <input type="text" class="form-control" ng-model="device.oem_model" placeholder="oem_model">
+          </div>
+          <div class="form-group">
+            <label>MAC</label>
+            <input type="text" class="form-control" ng-model="device.mac" placeholder="mac">
+          </div>
+          <div class="form-group">
+            <label>LAN Enabled</label>
+            <input type="text" class="form-control" ng-model="device.lan_enabled" placeholder="lan_enabled">
+            <!-- <textarea class="form-control" ng-model="device.lan_enabled" placeholder="lan_enabled"></textarea> -->
+          </div>
+          <div class="form-group">
+            <label>Image URL</label>
+            <input type="text" class="form-control" ng-model="device.image_url" placeholder="Image URL">
+          </div>
+          <div class="form-group">
+            <label>Connection Status</label>
+            <input type="text" class="form-control" ng-model="device.connection_status" placeholder="connection_status">
+          </div>
+
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

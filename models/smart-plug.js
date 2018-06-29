@@ -1,0 +1,25 @@
+
+module.exports = {
+    product_name: "default",
+    model: "AY001MAB1",
+    dsn: "AC000W002486907",
+    oem_model: "NS-SP1X7",
+    sw_version: "bc 2.4.5-beta 04/22/16 09:29:39 ID 2123200",
+    template_id: 366,
+    mac: "b0f1ec71cc1d",
+    unique_hardware_id: null,
+    hwsig: "0033003a-35355106-35353632",
+    lan_ip: "167.209.154.73",
+    connected_at: "2018-04-24T07:19:04Z",
+    key: 24194624,
+    lan_enabled: true,
+    has_properties: true,
+    product_class: null,
+    connection_status: "Offline",
+    lat: "44.98",
+    lng: "-93.2638",
+    locality: "55401",
+    device_type: "Wifi",
+    image_url: "https://multimedia.bbycastatic.ca/multimedia/products/500x500/112/11290/11290951.jpg",
+    description: "Automate your home with this Insignia Wi-Fi smart plug. It controls most electrical devices, including lights, air conditioners and kitchen appliances, and its Insignia Connect app sets up to 10 timers, including daily and weekly schedules. This Insignia Wi-Fi smart plug links to your home's Wi-Fi network and is accessible from any location through an iOS or Android device."
+}

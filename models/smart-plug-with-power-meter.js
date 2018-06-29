@@ -1,0 +1,25 @@
+
+module.exports = {
+    product_name: "device.product_name",
+    model: "AY001MUX1",
+    dsn: "AC000W001436898",
+    oem_model: "NS-SP1XM8",
+    sw_version: "bc 2.4.5-beta 04/22/16 09:29:39 ID 2123200",
+    template_id: 325,
+    mac: "6c0b84fc50eb",
+    unique_hardware_id: null,
+    hwsig: "0033003a-35355106-35353632",
+    lan_ip: "167.209.154.73",
+    connected_at: "2018-04-24T07:19:04Z",
+    key: 24194624,
+    lan_enabled: true,
+    has_properties: true,
+    product_class: null,
+    connection_status: "Offline",
+    lat: "44.98",
+    lng: "-93.2638",
+    locality: "55401",
+    device_type: "Wifi",
+    image_url: "https://cdn.shopify.com/s/files/1/2676/9376/products/insignia-cables-connectors-insignia-ns-sp1xm8-c-wi-fi-smart-plug-with-power-meter-open-box-851726499884_grande.jpg?v=1526772449",
+    description: "Automate an electrical device remotely with this Insignia Wi-Fi smart plug. It supports appliances with up to 1800W ratings, and it lets you monitor the power consumption of a plugged device via the Insignia Connect app. Control this Insignia Wi-Fi smart plug through voice command as it works with Apple HomeKit, Google Assistant and Amazon Alexa iOS or Android device."
+}

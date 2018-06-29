@@ -1,0 +1,27 @@
+<a href="#/devices">Go Back</a>
+<div class="panel panel-default" ng-init="getDevice()">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{device.product_name}}</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="{{device.image_url}}">
+      </div>
+      <div class="col-md-8">
+        <p>{{device.description}}</p>
+        <ul class="list-group">
+          <li class="list-group-item">Model: {{device.model}}</li>
+          <li class="list-group-item">DSN: {{device.dsn}}</li>
+          <li class="list-group-item">OEM Model: {{device.oem_model}}</li>
+          <li class="list-group-item">MAC: {{device.mac}}</li>
+        </ul>
+        <!-- <a target="_blank" href="{{device.buy_url}}" class="btn btn-primary">Buy on Amazon</a> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pull-right">
+  <a href="#/devices/edit/{{device._id}}">Edit</a> |  <a href="#" ng-click="removeDevice(device._id)">Delete</a>
+  </div>
