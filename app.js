@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 Device =require('./models/device');
 
 // Connect to Mongoose
-mongoose.connect('mongodb://guna:test123@ds121311.mlab.com:21311/devicestore');
+mongoose.connect('mongodb://admin:admin1@ds123971.mlab.com:23971/devicestore')
 var db = mongoose.connection;
 
 app.get('/', (req, res) => {
