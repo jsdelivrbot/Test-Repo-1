@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 Device =require('./models/device');
 
 // Connect to Mongoose
-mongoose.connect('mongodb://localhost/devicestore');
+mongoose.connect('mongodb://guna:test123@ds121311.mlab.com:21311/devicestore');
 var db = mongoose.connection;
 
 app.get('/', (req, res) => {
@@ -76,5 +76,5 @@ app.delete('/api/devices/:_id', (req, res) => {
 	});
 });
 
-app.listen(3000);
-console.log('Running on port 3000...');
+app.listen(process.env.PORT || 3000);
+console.log('Running on port Allocated by Heroku...');
